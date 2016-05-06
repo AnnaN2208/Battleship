@@ -1,0 +1,12 @@
+9 x 9
+P 5 cE V 13
+F 4 dD V 14
+c 3 fB H 11
+c 3 iA V 11
+S 2 fG H 6
+S 2 aA H 6
+S 2 eH V 6
+L 1 bG H 9
+L 1 aD V 9
+L 1 cC H 9
+L 1 fE V 9

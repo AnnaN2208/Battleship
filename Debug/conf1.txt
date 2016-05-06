@@ -1,0 +1,6 @@
+board: 10 x 10
+1 - Aircraft_carrier - 5 - P - Light_red
+1 - Frigate          - 4 - F - Light_magenta
+2 - Cruiser          - 3 - C - Light_green
+3 - Submarine        - 2 - S - Brown
+4 - Vedette          - 1 - L - Light_blue

@@ -1,0 +1,54 @@
+﻿Build started 11/5/2015 8:58:16 μμ.
+     1>Project "C:\Users\Dimitra\Documents\FEUP\PROG\Battleship2part\Battleship1part\Battleship1part\Battleship1part.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp Bomb.cpp main.cpp ship.cpp
+         ship.cpp
+         main.cpp
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(115): error C2061: syntax error : identifier 'fleet'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(121): error C2065: 'ship' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(121): error C2146: syntax error : missing ';' before identifier 'entryOfShip'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(121): error C2065: 'entryOfShip' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(128): error C2065: 'ship' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(128): error C2146: syntax error : missing ';' before identifier 'newship'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(128): error C2065: 'newship' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(133): error C2065: 'newship' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(133): error C2228: left of '.setSymbol' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(134): error C2065: 'newship' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(134): error C2228: left of '.setSize' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(139): error C2065: 'ships' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(139): error C2228: left of '.push_back' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(139): error C2228: left of '.at' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(205): error C2143: syntax error : missing ',' before '&'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(209): error C2065: 'board' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(209): error C2228: left of '.at' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(209): error C2228: left of '.size' must have class/struct/union
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(217): error C2065: 'board' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(217): error C2228: left of '.at' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(217): error C2228: left of '.size' must have class/struct/union
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(222): error C2065: 'board' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(222): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(225): error C2065: 'board' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(225): error C2228: left of '.at' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(230): error C2065: 'board' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(230): error C2228: left of '.at' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(230): error C2065: 'ships' : undeclared identifier
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(230): error C2228: left of '.symbol' must have class/struct/union
+     1>c:\users\dimitra\documents\feup\prog\battleship2part\battleship1part\battleship1part\main.cpp(230): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Bomb.cpp
+         Board.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Dimitra\Documents\FEUP\PROG\Battleship2part\Battleship1part\Battleship1part\Battleship1part.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:37.14
